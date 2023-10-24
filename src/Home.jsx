@@ -1,5 +1,5 @@
 import React from 'react';
-import countriesData from './CountriesData';
+import countriesData from './countriesData';
 
 
 function Home({ selectedCountry, setSelectedCountry }) {
