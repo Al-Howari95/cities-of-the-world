@@ -37,31 +37,37 @@
     transform: rotate(360deg);
   }
 }
-/* cities.css */
-/* cities.css */
-/* cities.css */
+
 .city-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  row-gap: 30px;
+
 }
 
 .city-card {
-  background-color: #f5f5f5; /* خلفية خفيفة */
+  background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: calc(25.5% - 5px); /* 33.33% عرض مع هامش بين الكروت */
+  width: calc(25.5% - 5px);
   margin: 10px;
   padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  transition: 0.3s;
 }
 
+.city-card:hover {
+  transform:rotate(2deg)
+}
+
+
 .city-card h3 {
-  font-size: 1.4rem; /* زيادة حجم النص */
+  font-size: 1.4rem; 
   margin: 12px 0;
 }
 
@@ -72,4 +78,17 @@
 }
 
 
+select {
+  margin-top: 20px;
+  width: 500px;
+  height: 50px;
+  border: 1px solid;
+  background-color: bisque;
+  text-align: center;
+}
 
+#pa {
+  margin-top: 30px;
+  font-size: larger;
+  font-weight: 900;
+}

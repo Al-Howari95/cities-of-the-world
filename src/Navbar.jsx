@@ -63,14 +63,7 @@ const Navbar = () => {
           className="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1"
           data-te-nav-item-ref=""
         >
-          <a
-            className="text-white transition duration-200 hover:text-white hover:ease-in-out focus:text-white disabled:text-black/30 motion-reduce:transition-none dark:text-white-200 dark:hover:text-white-400 dark:focus:text-white-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-white-400"
-            aria-current="page"
-            href="#"
-            data-te-nav-link-ref=""
-          >
-            Home
-          </a>
+          
         </li>
         {/* Features link */}
         <li
@@ -82,7 +75,7 @@ const Navbar = () => {
             href="#"
             data-te-nav-link-ref=""
           >
-            Features
+            Home
           </a>
         </li>
         {/* Pricing link */}
@@ -95,7 +88,7 @@ const Navbar = () => {
             href="#"
             data-te-nav-link-ref=""
           >
-            Pricing
+            About
           </a>
         </li>
         {/* About link */}
@@ -108,7 +101,7 @@ const Navbar = () => {
             href="#"
             data-te-nav-link-ref=""
           >
-            About
+            Contact
           </a>
         </li>
       </ul>
